@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+:root{
+    --Prime:#202060;
+    --Second:#FF08FF;
+    --Third:#5BC8AF;
+    --fourth:#602080;
+
+    --light:300;
+    --regular:400;
+    --medium:500;
+    --semibold:600;
+    --bold:700;
+}
+
+
+
+body {
+  background-color: var(--Prime);
+  margin: 0px;
+  font-family: 'Fira Code';
+  width:1440px
+}
+  
+header {
+  z-index: 999;
+  position: fixed;
+  top:0;
+  width: 100%;
+  font-size:24px;
+  color:black;
+  font-family: 'Fira Code';
+  background: var(--Third);
+  display: flex;
+  align-items: center;
+}
+
+
+.btn {
+  text-decoration: none;
+  height:36px;
+  width:164px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  border-radius: 20px;
+  background: #202060;
+  color:var(--Second);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  color: var(--Prime);
+  background-color: var(--Second);
+}
+
+.bth:active {
+  transform: scale(1.3) translateY(-5px);
+}
+
+.upl_icon:hover {
+  transform: scale(1.3);
+}
+
+.btncon {
+  display:flex;
+  align-items:center;
+}
+
+nav {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  /* gap:10%; */
+}
+
+.nav_item {
+  text-decoration: none;
+}
+
+.nav_item:hover {
+  border-radius: 20px;
+  color:var(--Second);
+}
+
+.list_item:hover {
+  transform: translateY(-8px) scale(1.1);
+}
+
+.navbar {
+  padding-top: 4px;;
+  height:32px;
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+}
+
+.navbar_btn {
+  padding-right: 62px;
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+}
+
+.upl_icon {
+  padding: 16px 0px 16px 80px ;
+}
+
+.list_item{
+  text-align: center;
+  height:32px;
+}
+
+.eyevid {
+  width:100vw;
+  opacity:30%;
+}
+
+#Home {
+  width: 1400px;
+  height:820px;
+  padding:160px 0px 0px 40px;
+  background-image: url(./images/matrix-g6cbc32008_1280.jpg);
+  background-size: auto 980px;
+}
+
+#About_me{
+  padding-top: 100px;
+  width: 1400px;
+  display:flex;
+  color:white;
+  height:1100px;
+  padding-left:40px;
+  background-image: linear-gradient(black,var(--Prime));
+}
+
+#Educations {
+  padding-top: 100px;
+  width: 1400px;
+  height:1722px;
+  background-image: linear-gradient(var(--Prime),var(--Third),var(--Third),var(--Prime));
+  padding-left:40px;
+}
+
+#Achievements {
+  padding-top: 100px;
+  width: 1400px;
+  height:1530px;
+  background-image: linear-gradient(var(--Prime),var(--Prime),var(--Prime),black);
+  padding-left:40px;
+}
+
+#Contact {
+  padding-top: 100px;
+  width: 1400px;
+  height:400px;
+  background-image: linear-gradient(black,var(--fourth));
+  padding-left:40px;
+}
+
+.ab1 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width:1440px;
+  gap:30px;
+}
+
+.abt {
+  width:1300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.abt_r {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f6 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  min-width:519px;
+  width:519px;
+  height:519px;
+  background-color: var(--Prime);
+}
+
+.cir {
+  justify-content: center;
+  overflow: hidden;
+  width:461px;
+  height:461px;
+  background-image: linear-gradient(var(--Second),rgba(255, 255, 255, 0));
+  border-radius:100%;
+  position:relative;
+}
+
+.cir img{
+  padding-top:50px;
+  transform: translateX(50px)
+}
+
+
+.f7 {
+  display:flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+  border-radius: 50px;
+  width:628px;
+  height:199px;
+  background-image: linear-gradient(var(--Second),rgba(255, 255, 255, 0));
+  color:white;
+}
+
+.f8 {
+  padding-top: 40px;
+  padding-left: 40px;
+  border-radius: 50px;
+  width: 588px;
+  height: 222px;
+  background-image: linear-gradient(var(--Prime),rgba(255, 255, 255, 0));
+  color:white;
+}
+
+.g14 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.g15 {
+  height:519px;
+  width:1305px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.g16 {
+  width:1305px;
+  gap:33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.f14 {
+  padding-top:10px;
+  height:194px;
+  width:1305px;
+  border-radius: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Third);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:1px;
+}
+
+.f14txt {
+  padding-top:35px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  justify-content: left;
+}
+
+.f14line {
+  display:flex;
+  padding-bottom:110px;
+  border-radius: 50px;
+  height:50px;
+  width:3px;
+  background-color: black;
+}
+
+.gs {
+  padding-top:16px;
+  display: flex;
+  height:152px;
+  width:85px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: top;
+  align-content: space-between;
+  gap:24px;
+}
+
+
+
+.eg3 {
+  width:1400px;
+  height:214px;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: left;
+
+}
+
+.eg3 h1{
+  padding-top: 50px;
+}
+
+.ef10,.ef11,.ef12 {
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  padding-left:25px;
+  padding-top:25px;
+  color: var(--Second);
+  width:519px;
+  height:346px;
+  border-radius: 50px;
+  background-image: linear-gradient(var(--Prime),rgba(255, 255, 255, 0));
+}
+
+.ef10 h3,.ef11 h3,.ef12 h3{
+  color:white;
+}
+
+
+.eg4 {
+  display: flex;
+  flex-direction: column;
+  height:1038px;
+  width:519px;
+  justify-content: space-between;
+}
+
+.eg5 {
+  display: flex;
+  flex-direction: row;
+  height:1038px;
+  width:1280px;
+  justify-content: space-between;
+}
+
+.cef11 {
+  display: flex;
+  flex-direction: column;
+  height: 1038px;
+  width:519px;
+  justify-content: center;
+}
+
+.ef13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--Third);
+  border-radius: 50px;
+  height:198px;
+  width:1280px;
+  padding-left:25px;
+}
+
+.ef6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:1676px;
+  width:1280px;
+}
+
+.ef6 h4{
+  font-weight: 400;
+}
+
+.dec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+}
+
+.dec img{
+  transform: rotate(90deg);
+  height:56px;
+}
+
+.dline {
+  background-color: var(--Third);
+  width:10px;
+  height:692px;
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+.dcir1 {
+  position:absolute;
+  top:2400px;
+  width:60px;
+  height:60px;
+  background-color: var(--Third);
+  border-radius: 100%;
+}
+
+.dcir2 {
+  position:absolute;
+  top:2730px;
+  width:60px;
+  height:60px;
+  background-color: var(--Third);
+  border-radius: 100%;
+}
+
+.dcir3 {
+  position:absolute;
+  top:3060px;
+  width:60px;
+  height:60px;
+  background-color: var(--Third);
+  border-radius: 100%;
+}
+
+.mt {
+  top:2409px;
+  width: 42px;
+  height: 42px;
+  background-color: var(--fourth);
+}
+
+.mm {
+  top:2739px;
+  width: 42px;
+  height: 42px;
+  background-color: var(--fourth);
+}
+
+.mb {
+  top:3069px;
+  width: 42px;
+  height: 42px;
+  background-color: var(--fourth);
+}
+
+.st {
+  top:2418px;
+  width: 24px;
+  height: 24px;
+  background:var(--Second);
+}
+
+.sm {
+  top:2748px;
+  width: 24px;
+  height: 24px;
+  background:var(--Second);
+}
+
+.sb {
+  top:3078px;
+  width: 24px;
+  height: 24px;
+  background:var(--Second);
+}
+
+.ag20 {
+  width:1360px;
+  height:214px;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: left;
+
+}
+
+.ag20 h1{
+  padding-top: 50px;
+}
+
+.ag19 {
+  width:1280px;
+  height:1430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.af16,.af20,.af18,.af22 {
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  padding-left:25px;
+  padding-top:25px;
+  color:white;
+  width:586px;
+  height:530px;
+  border-radius: 50px;
+  background-image: linear-gradient(var(--Third),rgba(255, 255, 255, 0));
+
+}
+
+.ag16,.ag17 {
+  width:586px;
+  height:1168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ag18 {
+  width:1280px;
+  height:1168px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.af16g {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+.af16txt {
+  color:white;
+  height:403px;
+  width:280px;
+}
+
+.af20g {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.af20txt {
+  color:white;
+}
+
+.abb {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:1300px;
+}
+
+.stathead {
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  z-index: 500;
+}
+
+.project {
+  border:2px solid white;
+  border-radius: 10px;
+  width:1300px;
+  height:200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pl {
+  padding-left: 30px;
+  height:200px;
+  width:240px;
+  border-right: 4px solid white;
+  z-index:500;
+}
+
+.pl h2{
+  font-weight: 500;
+}
+
+.pr {
+  padding-top:10px;
+  height:190px;
+  width:1000px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pritem {
+  text-decoration: none;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  gap:16px;
+}
+
+.cc {
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.ct {
+  display: flex;
+  color:white;
+}
+
+.cb {
+  padding-top:10px;
+  height:190px;
+  width:1300px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sts {
+  z-index: 500;
+}
+
+
+/* * {
+  border:red solid 1px;
+} */
+
+h1 {
+  font-weight: var(--bold);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:96px;
+}
+
+h2 {
+  font-weight: var(--light);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:48px;
+}
+h3 {
+  font-weight: var(--light);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:36px;
+}
+h4 {
+  font-weight: var(--light);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:24px;
+}
+h5 {
+  font-weight: var(--light);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:16px;
+}
+h6 {
+  font-weight: var(--light);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:16px;
+}
+p {
+  font-weight: var(--light);
+  margin:0;
+  font-family: 'Fira Code';
+  font-size:12px;
+}
+
+.eicon:hover{
+  transform: translateY(-8px);
+}
+
+.gs:hover {
+  transform: translateY(-8px);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pr {
+  z-index:500;
+}
+
+.cb .pritem {
+  width: 160px;
+  height:210px;
+  justify-content: center;
+}
+
+.pr .pritem:hover {
+  transform: translateY(-8px);
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index:500;
+}
+
+.cb .pritem:hover {
+  transform: translateY(-8px);
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index:500;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+}
+
+.box:active {
+  transform: scale(1.05);
+}
+
+.eicon:active {
+  transform: scale(1.05);
+}
+
+.pr *:active {
+  transform: scale(1.05);
+}
+
+.ach_img {
+  border-radius: 30px;
+}
+
+.ach_img:active {
+  transform: scale(1.3) translateX(28px) translateY(38px);
+}
+
+.img_sp {
+  border-radius: 30px;
+}
+
+.img_sp:active {
+  transform: scale(1.3) translateX(42px) translateY(30px);
+}
+
+.af18:active,.af22:active,.af16:active {
+  position: relative;
+  left:100px;
+  width: 400px;
+  color: rgba(255, 255, 255, 0);
+}
+
+.af20:active {
+  color: rgba(255, 255, 255, 0);
+}
+
+
+
+.gs:active {
+  background-color: #5bc8aeda;
+  transform: scale(1.8);
+  position: absolute;
+  top:-400px;
+  width:500px;
+  height:200px;
+  border-radius: 50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  gap:8px;
+}
+
+.cpp:active::before {
+  content: 'C++';
+  text-decoration: underline;
+}
+.cpp:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use C++ to solve problems and understand advanced algorithms such as dynamic programming, graphs, Dijkstra’s algorithm, Bellman-Ford algorithm, and Floyd-Warshall algorithm.";
+}
+
+.py:active::before {
+  content: 'Python';
+  text-decoration: underline;
+}
+.py:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use Python to solve most C++ problems and apply it to everyday use such as game development and the field of machine learning.";
+}
+
+.ar:active::before {
+  content: 'Arduino';
+  text-decoration: underline;
+}
+.ar:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use Arduino along with electronics to control microcontrollers and make IoT projects. I can also use it to control robots in robotic competitions.";
+}
+
+.re:active::before {
+  content: 'React';
+  text-decoration: underline;
+}
+.re:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use React to make basic websites like portfolio websites. I have also used it to make a travel advisor website which is a mini search engine website.";
+}
+
+.un:active::before {
+  content: 'Unity';
+  text-decoration: underline;
+}
+.un:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use Unity along with Blender to make basic 2D and 3D games. I have made an educational game and a simple shooting game.";
+}
+
+.tf:active::before {
+  content: 'TensorFlow';
+  text-decoration: underline;
+}
+.tf:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use TensorFlow for training machine learning models. I have done projects about tumor classification and parasitic egg classification.";
+}
+
+.js:active::before {
+  content: 'JavaScript';
+  text-decoration: underline;
+}
+.js:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use JavaScript along with ReactJS to make basic websites such as portfolios and simple mini search engine websites.";
+}
+
+.ht:active::before {
+  content: 'HTML5';
+  text-decoration: underline;
+}
+.ht:active::after {
+  padding-left:4px;
+  padding-right:4px;
+  content: "I can use HTML5 along with CSS to make full-stack websites with good-looking UI and full accessibility.";
+}
+
+
+
+
+/* .dis *:active {
+  color: red;
+} */
+
+* {
+  transition: transform 0.2s ease;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+
