@@ -59,8 +59,12 @@ header {
   transform: scale(1.3) translateY(-5px);
 }
 
-.upl_icon:hover {
+.upl_ic:hover {
   transform: scale(1.3);
+}
+
+.upl_ic:active {
+  transform: scale(1.5);
 }
 
 .btncon {
