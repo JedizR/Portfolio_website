@@ -18,7 +18,7 @@ body {
   background-color: var(--Prime);
   margin: 0px;
   font-family: 'Fira Code';
-  width:1440px
+  width:1440px;
 }
   
 header {
@@ -97,7 +97,7 @@ nav {
 }
 
 .navbar_btn {
-  padding-right: 62px;
+  padding-right: 93px;
   display: flex;
   flex-direction: row;
   gap:30px;
@@ -120,7 +120,7 @@ nav {
 #Home {
   width: 1400px;
   height:820px;
-  padding:160px 0px 0px 40px;
+  padding:160px 0px 0px 88px;
   background-image: url(./images/matrix-g6cbc32008_1280.jpg);
   background-size: auto 980px;
 }
@@ -131,7 +131,7 @@ nav {
   display:flex;
   color:white;
   height:1100px;
-  padding-left:40px;
+  padding-left:88px;
   background-image: linear-gradient(black,var(--Prime));
 }
 
@@ -140,7 +140,7 @@ nav {
   width: 1400px;
   height:1722px;
   background-image: linear-gradient(var(--Prime),var(--Third),var(--Third),var(--Prime));
-  padding-left:40px;
+  padding-left:88px;
 }
 
 #Achievements {
@@ -148,7 +148,7 @@ nav {
   width: 1400px;
   height:1530px;
   background-image: linear-gradient(var(--Prime),var(--Prime),var(--Prime),black);
-  padding-left:40px;
+  padding-left:88px;
 }
 
 #Contact {
@@ -156,7 +156,7 @@ nav {
   width: 1400px;
   height:400px;
   background-image: linear-gradient(black,var(--fourth));
-  padding-left:40px;
+  padding-left:88px;
 }
 
 .ab1 {
