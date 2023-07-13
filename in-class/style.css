@@ -15,6 +15,7 @@
 
 
 body {
+  width:100%;
   background-color: var(--Prime);
   margin: 0px;
   font-family: 'Fira Code';
@@ -126,7 +127,7 @@ nav {
   height:820px;
   padding:160px 0px 0px 107.5px;
   background-image: url(./images/matrix-g6cbc32008_1280.jpg);
-  background-size: auto 980px;
+  background-size: 1520px 980px;
 }
 
 #About_me{
@@ -137,6 +138,7 @@ nav {
   height:1100px;
   padding-left:107.5px;
   background-image: linear-gradient(black,var(--Prime));
+  background-size: 1520px auto;
 }
 
 #Educations {
@@ -145,6 +147,7 @@ nav {
   height:1722px;
   background-image: linear-gradient(var(--Prime),var(--Third),var(--Third),var(--Prime));
   padding-left:107.5px;
+  background-size: 1520px auto;
 }
 
 #Achievements {
@@ -153,6 +156,7 @@ nav {
   height:1530px;
   background-image: linear-gradient(var(--Prime),var(--Prime),var(--Prime),black);
   padding-left:107.5px;
+  background-size: 1520px auto;
 }
 
 #Contact {
@@ -162,6 +166,7 @@ nav {
   height:400px;
   background-image: linear-gradient(black,var(--fourth));
   padding-left:107.5px;
+  background-size: 1520px auto;
 }
 
 .ab1 {
