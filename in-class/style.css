@@ -676,7 +676,7 @@ p {
   background-color: #5bc8aeda;
   transform: scale(1.8);
   position: absolute;
-  top:-330px;
+  top:-420px;
   width:500px;
   height:200px;
   border-radius: 50px;
@@ -685,6 +685,34 @@ p {
   align-items: center;
   justify-content: top;
   gap:8px;
+}
+
+.py {
+  left:-132px;
+}
+
+.ar {
+  left:-264px;
+}
+
+.re {
+  left:-396px;
+}
+
+.un {
+  left:-528px;
+}
+
+.tf {
+  left:-660px;
+}
+
+.js {
+  left:-792px;
+}
+
+.ht {
+  left:-924px;
 }
 
 .cpp:active::before {
