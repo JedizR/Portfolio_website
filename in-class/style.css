@@ -122,7 +122,6 @@ nav {
 }
 
 #Home {
-  /* width: 1412.5px; */
   height:820px;
   padding:160px 0px 0px 107.5px;
   background-image: url(./images/matrix-g6cbc32008_1280.jpg);
@@ -131,7 +130,6 @@ nav {
 
 #About_me{
   padding-top: 100px;
-  /* width: 1412.5px; */
   display:flex;
   color:white;
   height:1100px;
@@ -141,7 +139,6 @@ nav {
 
 #Educations {
   padding-top: 100px;
-  /* width: 1412.5px; */
   height:1722px;
   background-image: linear-gradient(var(--Prime),var(--Third),var(--Third),var(--Prime));
   padding-left:107.5px;
@@ -149,7 +146,6 @@ nav {
 
 #Achievements {
   padding-top: 100px;
-  /* width: 1412.5px; */
   height:1530px;
   background-image: linear-gradient(var(--Prime),var(--Prime),var(--Prime),black);
   padding-left:107.5px;
@@ -395,85 +391,6 @@ nav {
   height:56px;
 }
 
-.dline {
-  background-color: var(--Third);
-  width:10px;
-  height:692px;
-}
-
-/* * {
-  border: 1px solid red;
-} */
-
-.dcir1 {
-  position:absolute;
-  top:2400px;
-  width:60px;
-  height:60px;
-  background-color: var(--Third);
-  border-radius: 100%;
-}
-
-.dcir2 {
-  position:absolute;
-  top:2730px;
-  width:60px;
-  height:60px;
-  background-color: var(--Third);
-  border-radius: 100%;
-}
-
-.dcir3 {
-  position:absolute;
-  top:3060px;
-  width:60px;
-  height:60px;
-  background-color: var(--Third);
-  border-radius: 100%;
-}
-
-.mt {
-  top:2409px;
-  width: 42px;
-  height: 42px;
-  background-color: var(--fourth);
-}
-
-.mm {
-  top:2739px;
-  width: 42px;
-  height: 42px;
-  background-color: var(--fourth);
-}
-
-.mb {
-  top:3069px;
-  width: 42px;
-  height: 42px;
-  background-color: var(--fourth);
-}
-
-.st {
-  top:2418px;
-  width: 24px;
-  height: 24px;
-  background:var(--Second);
-}
-
-.sm {
-  top:2748px;
-  width: 24px;
-  height: 24px;
-  background:var(--Second);
-}
-
-.sb {
-  top:3078px;
-  width: 24px;
-  height: 24px;
-  background:var(--Second);
-}
-
 .ag20 {
   width:1360px;
   height:214px;
@@ -627,11 +544,6 @@ nav {
 .sts {
   z-index: 500;
 }
-
-
-/* * {
-  border:red solid 1px;
-} */
 
 h1 {
   font-weight: var(--bold);
@@ -854,18 +766,8 @@ p {
   content: "I can use HTML5 along with CSS to make full-stack websites with good-looking UI and full accessibility.";
 }
 
-
-
-
-/* .dis *:active {
-  color: red;
-} */
-
 * {
   transition: transform 0.2s ease;
-}
-
-* {
   scroll-behavior: smooth;
 }
 
