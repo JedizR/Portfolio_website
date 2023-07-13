@@ -8,23 +8,29 @@
     <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
     <title>Jedi's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="icon" type="image/png" href="./images/loc_logo_tran.png">
 </head>
 
 <body>
-    <header>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 2000});
+    </script>
+    <header data-aos="fade-down" data-aos-duration="500">
         <nav>
-            <a class="upl_icon" href="#Home"><img class="upl_ic" src="./svg_icon/light-bulb-svgrepo-com.svg" alt="lightbulb_logo" width="48"
+            <a data-aos="fade-right" class="upl_icon" href="#Home"><img class="upl_ic" src="./svg_icon/light-bulb-svgrepo-com.svg" alt="lightbulb_logo" width="48"
                 height="48" /></a>
             <section class="navbar_btn">
                 <ul class="navbar" style="list-style: none">
-                    <li class="list_item"><a class="nav_item" href="#Home">Home</a></li>
-                    <li class="list_item"><a class="nav_item" href="#About_me">About&nbspme</a></li>
-                    <li class="list_item"><a class="nav_item" href="#Educations">Educations</a></li>
-                    <li class="list_item"><a class="nav_item" href="#Achievements">Achievements</a></li>
+                    <div data-aos="fade-left" data-aos-delay="600"><li class="list_item"><a class="nav_item" href="#Home">Home</a></li></div>
+                    <div data-aos="fade-left" data-aos-delay="400"><li class="list_item"><a class="nav_item" href="#About_me">About&nbspme</a></li></div>
+                    <div data-aos="fade-left" data-aos-delay="200"><li class="list_item"><a class="nav_item" href="#Educations">Educations</a></li></div>
+                    <div data-aos="fade-left" data-aos-delay="0"><li class="list_item"><a class="nav_item" href="#Achievements">Achievements</a></li></div>
 
                 </ul>
-                <section class="btncon">
+                <section data-aos="fade" class="btncon">
                     <a class="btn" href="#Contact">Contact&nbspme</a>
                 </section>
             </section>
@@ -33,75 +39,75 @@
     <section id="Home">
         <section class="g16">
             <section class="g15">
-                <section class="f6 box">
+                <div data-aos="fade-up"><section class="f6 box">
                     <div class="cir">
                         <img src="./images/face.png" width="400"/>
                     </div>
-                </section>
+                </section></div>
                 <section class="g14">
-                    <section class="f7 box">
+                    <div data-aos="fade-up"><section class="f7 box">
                         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=300&size=48&duration=2000&color=FFFFFF&multiline=true&width=330&height=130&lines=Natakorn;Wannabovorn" alt="Typing SVG" height="160"/></a>
-                    </section>
-                    <section class="f8 box">
+                    </section></div>
+                    <div data-aos="fade-up"><section class="f8 box">
                         <h4>I’m a 3rd year high school student with a passion for computers. I love coding and I’m
                             interested in machine learning and artificial intelligence. I’ve experience in competitive
                             programming and robotic competition.</h4>
-                    </section>
+                    </section></div>
 
                 </section>
             </section>
-            <section class="f24 box">
+            <div data-aos="fade-up"><section class="f24 box">
                 <section class="f14">
-                    <section class="f14txt">
+                    <div data-aos="fade"><section class="f14txt">
                         <h3>Skills</h3>
                         <h3>&</h3>
                         <h3>Experiences</h3>
-                    </section>
-                    <section class="f14line">
-                        .
-                    </section>
-                    <section class="gs cpp">
+                    </section></div>
+                    <div data-aos="fade"><section class="f14line">
+                        
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="0"><section class="gs cpp">
                         <img class="sicon" src="./svg_icon/cpp2-svgrepo-com.svg" alt="cplusplus"
                             width="48" height="48" />
                         <p>Excellent Competitive</p>
-                    </section>
-                    <section class="gs py">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="150"><section class="gs py">
                         <img class="sicon" src="./svg_icon/python-127-svgrepo-com.svg" alt="python"
                             width="48" height="48" />
                         <p>Excellent Applied to everyday use</p>
-                    </section>
-                    <section class="gs ar">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="300"><section class="gs ar">
                         <img class="sicon" src="./svg_icon/arduino-svgrepo-com.svg" alt="arduino"
                             width="48" height="48" />
                         <p>Excellent Robotic competition</p>
-                    </section>
-                    <section class="gs re">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="450"><section class="gs re">
                         <img class="sicon" src="./svg_icon/react-svgrepo-com.svg" alt="react"
                             width="48" height="48" />
                         <p>Intermediate 2 website created</p>
-                    </section>
-                    <section class="gs un">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="600"><section class="gs un">
                         <img class="sicon" src="./svg_icon/unity-svgrepo-com.svg" alt="unity"
                             width="48" height="48" />
                         <p>Beginner 1 game created</p>
-                    </section>
-                    <section class="gs tf">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="750"><section class="gs tf">
                         <img class="sicon" src="./svg_icon/tensorflow-svgrepo-com.svg" alt="tensorflow"
                             width="48" height="48" />
                         <p>Beginner 1 ML project created</p>
-                    </section>
-                    <section class="gs js">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="900"><section class="gs js">
                         <img class="sicon" src="./svg_icon/javascript-155-svgrepo-com.svg" alt="javascript"
                             width="48" height="48" />
                         <p>Intermediate 3 project created</p>
-                    </section>
-                    <section class="gs ht">
+                    </section></div>
+                    <div data-aos="fade-right" data-aos-delay="1050"><section class="gs ht">
                         <img class="sicon" src="./svg_icon/html5-01-svgrepo-com.svg" alt="html"
                             width="48" height="48" />
                         <p>Intermediate Understand syntax and structure</p>
+                    </section></div>
                     </section>
-                    </section>
-            </section>
+            </section></div>
         </section>
     </section>
         <!-- <video autoplay muted loop>
@@ -112,147 +118,134 @@
         <!-- <h4>I’m a 3rd year high school student with a passion for computers. I love coding and I’m interested in machine learning and artificial intelligence. I’ve experience in competitive programming and robotic competition.</h4> -->
     <section id="About_me">
         <section class="ab1">
-            <section class="stathead box">
+            <div data-aos="fade-up"><section class="stathead box">
                 <h1>Programming Status</h1>
                 <img class="eicon" src="./svg_icon/stats-1367-svgrepo-com.svg" alt="html"
                 width="130" height="130" />
-            </section>
+            </section></div>
             <section class="abt sts">
-                <section class="abt_l">
+                <div data-aos="fade-right"><section class="abt_l">
                     <img class="eicon" src="https://github-readme-stats.vercel.app/api?username=jedizr&theme=neon&show_icons=true" alt="html"
                 height="300" />
-                </section>
-                <section class="abt_r sts">
+                </section></div>
+                <div data-aos="fade-left"><section class="abt_r sts">
                     <img class="eicon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JedizR&layout=compact&theme=neon&langs_count=6&hide=GLSL,Astro,Go,Shell%22%20alt=%22jedizr%22" alt="html"
                 height="300" />
-                </section>
+                </section></div>
             </section>
             <section class="abb sts">
-                <img class="eicon" src="https://github-readme-streak-stats.herokuapp.com/?user=jedizr&theme=neon" alt="jedizr" alt="html"
-                height="280" />
-                <img class="eicon" src="https://github-readme-stats.vercel.app/api/wakatime?username=JedizR&theme=neon" alt="jedizr" alt="html"
-                height="280" />
+                <div data-aos="fade-right"><img class="eicon" src="https://github-readme-streak-stats.herokuapp.com/?user=jedizr&theme=neon" alt="jedizr" alt="html"
+                height="250" /></div>
+                <div data-aos="fade-left"><img class="eicon" src="https://github-readme-stats.vercel.app/api/wakatime?username=JedizR&theme=neon" alt="jedizr" alt="html"
+                height="250" /></div>
             </section>
-            <section class="project">
-                <section class="pl">
+            <div data-aos="fade-up" style="z-index:900"><section class="project">
+                <div data-aos="fade"><section class="pl">
                     <h2>My<br>Past<br>Project</h2>
-                </section>
+                </section></div>
                 <section class="pr">
-                    <a class="pritem" target="blank" href="https://jedizr.github.io/travel_advisor/"><img class="eicon" src="./svg_icon/travel-suitcase-1-svgrepo-com.svg" alt="html"
-                        width="130" height="130" style="z-index:500"/>Travel Advisor</a>
-                    <a class="pritem" target="blank" href="https://github.com/JedizR/CODETOPIA_LoC/blob/main/CODETOPIA(v1.1).py"><img class="eicon" src="./svg_icon/game-controller-svgrepo-com.svg" alt="html"
-                        width="130" height="130" style="z-index:500"/>CODETOPIA</a>
-                    <a class="pritem" target="blank" href="https://github.com/JedizR/Maze_Solver_MRC_2023/tree/main/mrc_maze2023"><img class="eicon" src="./svg_icon/maze-puzzle-game-svgrepo-com.svg" alt="html"
-                        width="130" height="130" style="z-index:500"/>Maze Solver</a>
+                    <div data-aos="fade-left"><a class="pritem" target="blank" href="https://jedizr.github.io/travel_advisor/"><img class="eicon" src="./svg_icon/travel-suitcase-1-svgrepo-com.svg" alt="html"
+                        width="130" height="130" style="z-index:500"/>Travel Advisor</a></div>
+                    <div data-aos="fade"><a class="pritem" target="blank" href="https://github.com/JedizR/CODETOPIA_LoC/blob/main/CODETOPIA(v1.1).py"><img class="eicon" src="./svg_icon/game-controller-svgrepo-com.svg" alt="html"
+                        width="130" height="130" style="z-index:500"/>CODETOPIA</a></div>
+                    <div data-aos="fade-right"><a class="pritem" target="blank" href="https://github.com/JedizR/Maze_Solver_MRC_2023/tree/main/mrc_maze2023"><img class="eicon" src="./svg_icon/maze-puzzle-game-svgrepo-com.svg" alt="html"
+                        width="130" height="130" style="z-index:500"/>Maze Solver</a></div>
                 </section>
-            </section>
+            </section></div>
         </section>
-        <video autoplay muted loop class="eyevid" style="position:absolute; height:940px; width:1520px; left:0px; padding-top:180px; z-index:1;">
+        <video autoplay muted loop class="eyevid" style="position:absolute;  width:1540px; left:0px; padding-top:180px; z-index:1;">
             <source src="./videos/eye.mp4" type="video/mp4">
         </video>
     </section>
     <section id="Educations">
         <section class="ef6">
-            <section class="eg3 box">
+            <div data-aos="fade-up"><section class="eg3 box">
                 <h1>Education&nbspRoadmap</h1>
                 <img class="eicon" src="./svg_icon/education-learning-18-svgrepo-com.svg" alt="html"
                 width="214" height="214" />
-            </section>
+            </section></div>
             <section class="eg5">
                 <section class="eg4">
-                    <section class="ef10 box">
+                    <div data-aos="fade-up"><section class="ef10 box">
                         <h2>Elementary&nbspschool</h2>
                         <h3>Sriwittaya&nbspSchool<br>GPAX&nbsp:&nbsp4.00</h3>
-                    </section>
-                    <section class="ef12 box">
+                    </section></div>
+                    <div data-aos="fade-up"><section class="ef12 box">
                         <h2>Senior<br>high&nbspschool</h2>
                         <h3>Benchamaracharungsarit<br>School<br>GPAX&nbsp:&nbsp4.00</h3>
-                    </section>
+                    </section></div>
                 </section>
                 <section class="dec">
                     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1000&color=602080&center=true&vCenter=true&width=576&height=32&lines=Study+diligently%2C+rest+deeply%2C+code+relentlessly" alt="Typing SVG" />
                 </section>
-                <!-- <section class="dec">
-                    <section class="dline">
 
-                    </section>
-                    <section class="dcir1"></section>
-                    <section class="dcir1 mt"></section>
-                    <section class="dcir1 st"></section>
-                    <section class="dcir2"></section>
-                    <section class="dcir2 mm"></section>
-                    <section class="dcir2 sm"></section>
-                    <section class="dcir3"></section>
-                    <section class="dcir3 mb"></section>
-                    <section class="dcir3 sb"></section>
-                </section> -->
                 <section class="cef11">
-                    <section class="ef11 box">
+                    <div data-aos="fade-up"><section class="ef11 box">
                         <h2>Junior<br>high&nbspschool</h2>
                         <h3>Benchamaracharungsarit<br>School<br>GPAX&nbsp:&nbsp3.98</h3>
-                    </section>
+                    </section></div>
                 </section>
             </section>
-            <section class="ef13 box">
+            <div data-aos="fade-up"><section class="ef13 box">
                 <h4>For my future education, I was initially interested in pursuing a computer engineering bachelor's degree at Chulalongkorn University. However, as I discovered my fascination with data science and the field of machine learning, I have now decided to pursue a Data Science bachelor's program at Harbour.Space@UTCC.</h4>
-            </section>
+            </section></div>
         </section>
     </section>
     <section id="Achievements">
         <section class="ag19">
-            <section class="ag20 box">
+            <div data-aos="fade-up"><section class="ag20 box">
                 <h1>Achievements</h1>
                 <img class="eicon" src="./svg_icon/achievement-award-medal-svgrepo-com.svg" alt="html"
                 width="214" height="214" />
-            </section>
+            </section></div>
             <section class="ag18">
                 <section class="ag16">
-                    <section class="af16 box">
+                    <div data-aos="fade-up"><section class="af16 box">
                         <section class="af16g">
                             <img class="ach_img box" src="./images/posn.JPG" alt="html" width="300" height="400" />
                             <h4>I Participate in the POSN (Thailand Academic Olympic) competition in the field of computer and informatics. I successfully completed Camp 1 and Camp 2 in both 2021 and 2022. </h4>   
                         </section>
-                    </section>
-                    <section class="af20 box">
+                    </section></div>
+                    <div data-aos="fade-up"><section class="af20 box">
                         <section class="af20g">
                             <img class="img_sp box" src="./images/mrc.JPG" alt="html" width="450" height="340" />
                             <h4>I participate in the Maker Robotics Challenge 2023 International Open, I secured the coveted 1st place in the highly competitive Maze Solving Robot competition.</h4>
                         </section>
-                    </section>
+                    </section></div>
                 </section>
                 <section class="ag17">
-                    <section class="af18 box">
+                    <div data-aos="fade-up"><section class="af18 box">
                         <section class="af16g">
                             <img class="ach_img box" src="./images/loc.jpg" alt="html" width="300" height="400" />
                                 <h4>I Attended the Leagues of Code Thailand Summer Camp, where I showcased my skills and knowledge. As a result, I was awarded a $3000 scholarship to participate in the Memorca Summer Camp in Spain. </h4>
                         </section>
-                    </section>
-                    <section class="af22 box">
+                    </section></div>
+                    <div data-aos="fade-up"><section class="af22 box">
                         <section class="af16g">
                             <img class="ach_img box" src="./images/itcamp.jpg" alt="html" width="300" height="400" />
                                 <h4>I Participated in the KMITL University IT Camp, where I delved into the field of data science for the first time. During the camp, I developed a machine learning model and successfully emerged as the winner of the competition. </h4>
                         </section>
-                    </section>
+                    </section></div>
                 </section>
             </section>
         </section>
     </section>
     <section id="Contact">
         <section class="cc">
-            <section class="ct box">
+            <div data-aos="fade"><section class="ct box">
                 <h1>Contact&nbspme</h1>
                 <img class="eicon" src="./svg_icon/contact-book-svgrepo-com.svg" alt="html"
                         width="130" height="130" style="z-index:500"/>
-            </section>
+            </section></div>
             <section class="cb">
-                <a class="pritem" href="https://twitter.com/jed1zl2" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jed1zl2" height="100" width="100" />Twitter</a>
-                <a class="pritem" href="https://stackoverflow.com/users/jedizr" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="jedizr" height="100" width="100" />Stack Overflow</a>
-                <a class="pritem" href="https://codesandbox.com/jedizr" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="jedizr" height="100" width="100" />Code Sandbox</a>
-                <a class="pritem" href="https://fb.com/ณฐกร วรรณบวร" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ณฐกร วรรณบวร" height="100" width="100" />Facebook</a>
-                <a class="pritem" href="https://instagram.com/jedi_ntk" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jedi_ntk" height="100" width="100" />instagram</a>
-                <a class="pritem" href="https://www.youtube.com/c/babe, ur my type" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="babe, ur my type" height="100" width="100" />Youtube</a>
-                <a class="pritem" href="https://codeforces.com/profile/jedizr" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="jedizr" height="100" width="100" />Codeforces</a>
-                <a class="pritem" href="https://discord.gg/jedizR#8429" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="jedizR#8429" height="100" width="100" />Discord</a>
+                <div data-aos="fade" data-aos-delay="0"><a class="pritem" href="https://twitter.com/jed1zl2" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jed1zl2" height="100" width="100" />Twitter</a></div>
+                <div data-aos="fade" data-aos-delay="100"><a class="pritem" href="https://stackoverflow.com/users/jedizr" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="jedizr" height="100" width="100" />Stack Overflow</a></div>
+                <div data-aos="fade" data-aos-delay="200"><a class="pritem" href="https://codesandbox.com/jedizr" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="jedizr" height="100" width="100" />Code Sandbox</a></div>
+                <div data-aos="fade" data-aos-delay="300"><a class="pritem" href="https://fb.com/ณฐกร วรรณบวร" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ณฐกร วรรณบวร" height="100" width="100" />Facebook</a></div>
+                <div data-aos="fade" data-aos-delay="400"><a class="pritem" href="https://instagram.com/jedi_ntk" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jedi_ntk" height="100" width="100" />instagram</a></div>
+                <div data-aos="fade" data-aos-delay="500"><a class="pritem" href="https://www.youtube.com/c/babe, ur my type" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="babe, ur my type" height="100" width="100" />Youtube</a></div>
+                <div data-aos="fade" data-aos-delay="600"><a class="pritem" href="https://codeforces.com/profile/jedizr" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="jedizr" height="100" width="100" />Codeforces</a></div>
+                <div data-aos="fade" data-aos-delay="700"><a class="pritem" href="https://discord.gg/jedizR#8429" target="blank"><img class="eicon" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="jedizR#8429" height="100" width="100" />Discord</a></div>
             </section>
         </section>
     </section>
