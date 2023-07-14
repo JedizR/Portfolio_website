@@ -691,6 +691,7 @@ p {
 
 
 .gs:active {
+  transition: transform 0.3s ease;
   background-color: #5bc8aeda;
   transform: scale(1.8);
   position: absolute;
